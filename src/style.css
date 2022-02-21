@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(rgb(13, 6, 54), white);
+    height: 100vh;
+}
+
+.header{
+    font-size: 45px;
+    color: rgb(49, 221, 221);
+    text-align: center;
+    text-shadow:3px 1px rgb(255, 255, 255);
+
+}
+
+.fcbutton{
+    background-color: rgb(111, 161, 161);
+    padding: 30px 50px;
+    margin-left: 450px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.fcbutton:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.ccbutton{
+    background-color: aqua;
+    padding: 30px 50px;
+    border-radius: 20px;
+
+}
+
+.ccbutton:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+/* Components styling */
+
+.box1{
+    width: auto;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 50px ;
+    margin-left: 50px;
+    position: absolute;
+    left: 30px;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: rgb(22, 187, 216);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.box2{
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 80px;
+    padding: 25px;
+    position: absolute;
+    right: 30px;
+    background-color: rgb(7, 47, 54);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+}
